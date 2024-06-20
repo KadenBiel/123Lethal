@@ -13,13 +13,12 @@ You need to install the following dependencies for this mod to work in the game 
 
 ### Github Fork
 
-You will need git installed on your pc
     1. Create your own [fork](https://github.com/KadenBiel/123Lethal/Fork) on Github, this will make things 1000x easier when dealing with multiple developers.
     2. Clone your fork (`git clone <insert your link here>`)
 
 ### Setup Script
 
-After copying this repo for yourself, run [SETUP-PROJECT.py](/SETUP-PROJECT.py) from the command-line like this: `python SETUP-PROJECT.py` (Or you can run it from your file manager on Linux). Note that you will have to have Python installed.  
+After cloning your fork, run [SETUP-PROJECT.py](/SETUP-PROJECT.py) from the command-line like this: `python SETUP-PROJECT.py` (Or you can run it from your file manager on Linux). Note that you will have to have Python installed.  
 - First, the setup project will copy DLL files over to `UnityProject/Assets/Plugins` directory so we can build our Asset Bundles without any errors.
     - Make sure have [HookGenPatcher](https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/) installed and have run the game at least once! This is needed for MMHOOK dll files.
 - Second, it will run `dotnet tool restore` in the `Plugin` folder to locally install Unity Netcode Patcher & Thunderstore CLI.
