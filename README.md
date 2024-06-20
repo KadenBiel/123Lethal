@@ -15,7 +15,7 @@ You need to install the following dependencies for this mod to work in the game 
 
 You will need git installed on your pc
     1. Create your own [fork](https://github.com/KadenBiel/123Lethal/Fork) on Github, this will make things 1000x easier when dealing with multiple developers.
-    2. Clone your fork ('git clone <insert your link here>')
+    2. Clone your fork (`git clone <insert your link here>`)
 
 ### Setup Script
 
